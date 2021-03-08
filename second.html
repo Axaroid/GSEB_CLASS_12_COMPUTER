@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title>javascript</title>
+
+  
+  
+  <script>
+	function validatepincode()
+	{
+	var x=document.second.pincode.value;
+	if(x=="" || x.length>6 || isNaN(x) || x==null || x.length<6)
+		{
+			alert("Enter A Valid Pincode");
+			return false;
+		}
+}
+  </script>
+</head><body>
+<br>
+
+<form name="second" method="post" action="second.html" onsubmit="return validatepincode()"> <label>Pin Code</label>&nbsp;&nbsp;
+  <input name="pincode" type="text"><br>
+  <input name="submit" value="submit" type="submit"></form>
+
+</body></html>
