@@ -1,4 +1,4 @@
-public class Akshar 
+public class balancecalculator 
 {
 	public static void main (String[] args)
 	{
